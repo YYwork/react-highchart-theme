@@ -3,7 +3,7 @@
  * @author Torstein Honsi
  */
 
-export default const darkBlue = {
+var darkBlue = {
 	colors: ["#DDDF0D", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
 		"#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
 	chart: {
@@ -249,3 +249,5 @@ export default const darkBlue = {
 	textColor: '#C0C0C0',
 	maskColor: 'rgba(255,255,255,0.3)'
 };
+
+module.exports = darkBlue

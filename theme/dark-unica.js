@@ -10,7 +10,7 @@
 // 	type: 'text/css'
 // }, null, document.getElementsByTagName('head')[0]);
 
-export default const darkUnica = {
+var darkUnica = {
 	colors: ["#2b908f", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
 		"#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
 	chart: {
@@ -208,3 +208,7 @@ export default const darkUnica = {
 	contrastTextColor: '#F0F0F3',
 	maskColor: 'rgba(255,255,255,0.3)'
 };
+
+
+module.exports = darkUnica
+

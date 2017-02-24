@@ -2,8 +2,8 @@
  * Skies theme for Highcharts JS
  * @author Torstein Honsi
  */
-
-export default const skies = {
+ 
+var skies = {
 	colors: ["#514F78", "#42A07B", "#9B5E4A", "#72727F", "#1F949A", "#82914E", "#86777F", "#42A07B"],
 	chart: {
 		className: 'skies',
@@ -84,3 +84,6 @@ export default const skies = {
 		}
 	}
 };
+
+module.exports = skies
+
